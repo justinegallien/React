@@ -1,0 +1,18 @@
+@use "./index.scss" as *;
+
+.footer {
+  background-color: $secondary;
+  color: $highlight;
+}
+
+.header {background-color: $secondary;
+  color: $highlight;
+  border-color: $highlight;
+  
+}
+
+.main{
+  background-color: $primary;
+  color: $secondary;
+  border-color: $highlight;
+}
