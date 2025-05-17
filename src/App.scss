@@ -1,5 +1,9 @@
 @use "./index.scss" as *;
 
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 .footer {
   background-color: $secondary;
   color: $highlight;
@@ -12,7 +16,17 @@
 }
 
 .main{
+  h2{font-family: 'Times New Roman', Times, serif;
+    color: #e29578;
+    &:hover{
+      text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
+      color: darken($color: #e29578, $amount: 15%)
+
+    }
+    
+  }
   background-color: $primary;
   color: $secondary;
   border-color: $highlight;
 }
+
